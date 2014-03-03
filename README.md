@@ -14,4 +14,5 @@ Have a look at sirona.properties file to see Cassandra configuration
 
 ```
 org.apache.sirona.cube.CubeBuilder.collector = http://localhost:9090/sirona-collector/collector
-``
+```
+
