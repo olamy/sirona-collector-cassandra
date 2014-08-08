@@ -26,23 +26,24 @@
   <properties>
     <tomcatRunPort>9090</tomcatRunPort>
     <tomcatRunPath>/sirona-collector</tomcatRunPath>
+    <sirona.version>0.3-incubating-SNAPSHOT</sirona.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.apache.sirona</groupId>
       <artifactId>sirona-core</artifactId>
-      <version>0.2-incubating-SNAPSHOT</version>
+      <version>${sirona.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.sirona</groupId>
       <artifactId>sirona-cassandra</artifactId>
-      <version>0.2-incubating-SNAPSHOT</version>
+      <version>${sirona.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.sirona</groupId>
       <artifactId>sirona-collector</artifactId>
-      <version>0.2-incubating-SNAPSHOT</version>
+      <version>${sirona.version}</version>
       <classifier>classes</classifier>
     </dependency>
     <dependency>
